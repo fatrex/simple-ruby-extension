@@ -1,8 +1,8 @@
-﻿{
+{
     "name": "ryuk87.simple-ruby-extension",
     "title": "Simple Ruby Extension",
     "description": "A simple extension that adds comments to Ruby files and html highlight for ERB files",
-    "homepage": "https://github.com/yourname/yourproject",
+    "homepage": "https://github.com/Ryuk87/simple-ruby-extension",
     "version": "0.1.0",
     "author": "Daniele Lenares <daniele.lenares@gmail.com>",
     "license": "MIT",
