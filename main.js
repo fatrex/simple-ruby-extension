@@ -8,7 +8,7 @@ define(function (require, exports, module) {
 
 	//Ruby Refine
 	var ruby_language = LanguageManager.getLanguage("ruby");
-	//RoR Extensions
+	//RoR File Extensions
 	ruby_language.addFileExtension("rb");
 	ruby_language.addFileExtension("ru");
 	//RoR Specific Files
@@ -20,10 +20,19 @@ define(function (require, exports, module) {
 
 	//ERB Refine
 	var erb_language = LanguageManager.getLanguage("html");
-	//ERB Extensions
+	//ERB File Extensions
 	erb_language.addFileExtension("html.erb");
 	erb_language.addFileExtension("htm.erb");
 	erb_language.addFileExtension("erb");
 	//ERB Comments
 	erb_language.setBlockCommentSyntax("<!--", "-->");
+
+	//HAML Definition
+	LanguageManager.defineLanguage("haml", {
+		name: "HAML",
+		mode: "haml",
+		//HAML Extensions
+		fileExtensions: ["haml", "html.haml", "htm.haml"],
+		lineComment: ["-#"]
+	});
 });
