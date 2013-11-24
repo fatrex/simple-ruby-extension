@@ -14,6 +14,7 @@ define(function (require, exports, module) {
 	//RoR Specific Files
 	ruby_language.addFileName("Gemfile");
 	ruby_language.addFileName("Rakefile");
+	ruby_language.addFileName("Guardfile");
 	//Ruby Comments
 	ruby_language.setLineCommentSyntax(["#"]);
 	ruby_language.setBlockCommentSyntax("=begin\n", "\n=end");
