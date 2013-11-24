@@ -3,7 +3,7 @@
     "title": "Simple Ruby Extension",
     "description": "A simple extension that adds comments to Ruby files, html highlight for ERB files and HAML files",
     "homepage": "https://github.com/Ryuk87/simple-ruby-extension",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Daniele Lenares <daniele.lenares@gmail.com>",
     "license": "MIT",
     "engines": {
