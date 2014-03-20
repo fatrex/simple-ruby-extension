@@ -11,6 +11,7 @@ define(function (require, exports, module) {
 	//RoR File Extensions
 	ruby_language.addFileExtension("rb");
 	ruby_language.addFileExtension("ru");
+	ruby_language.addFileExtension("jbuilder");
 	//RoR Specific Files
 	ruby_language.addFileName("Gemfile");
 	ruby_language.addFileName("Rakefile");
